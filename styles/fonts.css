@@ -1,0 +1,7 @@
+@font-face {
+			font-family: "SegoeUIRegular";
+			src: url("fonts/SegoeUIRegular.ttf");
+			src: url("fonts/SegoeUIRegular.ttf?#iefix")format("truetype"),
+			font-style: normal;
+			font-weight: normal;
+	}

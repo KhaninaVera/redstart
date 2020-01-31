@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Вход REDSTART</title>
+	<link rel="stylesheet" type="text/css" href="styles/enter_redstart.css">
+	<link media="screen" rel="stylesheet" href="styles/media-queries.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+		<img id="logo" src="img/logo1.png">
+		<input id="search" type="search" name="search" placeholder="ПОИСК">
+		<div class="submit">
+			<img id="iconsubmit" src="img/iconsubmit.png">
+			<a href="enter_redstart.html" id="submit" value="Войти">Войти</a>
+		</div>
+	</header>
+	<main>
+		<div id="enter">
+			<legend id="enter_redstart">Вход REDSTART</legend>
+			<form class="form_enter" formmethod="post" id='enter_red_start'>
+				<div class="in_border">
+					<div class="nick">
+						<label  for="name" class="label">Введите логин</label>
+						<input class="input" type="text" name="name" id="username"><div class="validation"></div>
+					</div>
+					<div class="password">
+						<label for="pass" class="label">Введите пароль</label>
+						<input class="input" type="password" name="password" id="pass">
+						<div class="validation"></div>
+					</div>	
+					<div class="img_button">
+						<img id="imnotarobot" src="img/imnotarobot.png">
+						<div class="button_save">
+							<button class="button" type="submit">Войти</button>
+						</div>
+					</div>
+					<a id="recovery" href="#">Форма восстановления учётных данных</a>
+				</form>
+			</div>
+		</main>
+		<footer>	
+			<div class="footer">
+				<div class="footer_line"><img id="footer_line" src="img/footer_line.png"></div>
+				<div class="contacts">
+					<div class="contact" >
+						<a id="support" href="support@redstart.net">support@redstart.net</a>
+						<span id="rightholder">&#169; 2019 REDSTART.NET Все права защищены.</span>
+					</div>	
+					<div>
+						<img id="logo_footer" src="img/logo2.png">
+					</div>	
+				</div>
+				
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="js/enter.js"></script>
+	</body>
+	</html>
